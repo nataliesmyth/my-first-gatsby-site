@@ -1,15 +1,12 @@
 // Step 1: Import React
 import * as React from 'react'
-import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-// Step 2: Define your component
 const AboutPage = () => {
   return (
-    <main>
-      <h1>About Me</h1>
-      <Link to="/">Back to Home</Link>
+    <Layout pageTitle="About Me">
       <p>Hi there! My name is Natalie, and I am a people person who loves to program. For me, the best part of programming is bringing ideas to life on the internet.</p>
-    </main>
+    </Layout>
   )
 }
 
