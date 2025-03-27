@@ -1,0 +1,13 @@
+/* how to style Layout component using CSS Modules */
+/* 
+1. create CSS Modules file (layout.module.css) and add styles
+2. import the CSS Modules file in the Layout component .js file
+3. use className prop to assign it to the top-level <div> element.
+*/
+
+/* step 1 */
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
